@@ -408,6 +408,7 @@ Before running the project, ensure the following:
 | Resource | Description |
 |----------|-------------|
 | [📄 `LEXISIGHT REPORT FINAL YEAR B.TECH.pdf`](https://drive.google.com/file/d/1kWeVTq-2NlFMsqrqdk5IAi_EbOgeKD6m/view?usp=sharing) | Complete project report |
+| [🧠 `llama_finetuned_state_dict.pkl`](https://drive.google.com/file/d/1scjiSjQah-1MDcOEiqXSK0EAHGorSG1F/view?usp=sharing) | Fine-tuned LLaMA model weights |
 
 ### Other References
 
