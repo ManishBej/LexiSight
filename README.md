@@ -110,9 +110,9 @@ LEXISIGHT builds a domain-specific legal assistant for contract disputes using a
 ```mermaid
 flowchart LR
   A[React UI] -->|HTTP/JSON| B[ngrok Public URL]
-  B --> C[FastAPI Server (Colab/VM)]
+  B --> C[FastAPI Server - Colab/VM]
   C --> D[Inference Module - PyTorch LLaMA-3.2-1B]
-  D --> E[MANISH.json Dataset (used for retrieval)]
+  D --> E[MANISH.json Dataset used for retrieval]
   C --> F[Logs / Evaluation results]
 ```
 
