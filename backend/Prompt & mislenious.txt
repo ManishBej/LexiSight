@@ -1,0 +1,286 @@
+DATA COLLECTION
+>>>>>>>>>>>>>>>
+DATASET PREPARATION
+>>>>>>>>>>>>>>>>>>>>
+FINETUNING & TRAINING AI MODEL USING DATASET AND SAVING TRAINED AI MODEL IN A PKL FILE
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+USING TRAINED AI MODEL FROM THAT PKL FILE
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+FRONTEND REACT APP FOR USER INTERACTION & CHATING WITH AI
+
+
+=====================================================================================================
+
+data collection using selenium
+
+DATASET MAKER
+
+Evaluate & test accuracy of AI output
+
+FInal AI using trained & finetuned llama
+
+llama training & finetuning program
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+ok, now my project is complete, now it is time to write a complete a report for this project,
+till now we have done:
+1. DATA COLLECTION: we have written a python program using selenium to download PDFs of contract case judgments from Indiankanoon website using 'data collection using selenium.py'
+2. DATASET PREPARATION: we have created datasetcalled 'MANISH.json' in JSON format with 7 perameters using 'DATASET MAKER.py'.
+3. FINETUNING & TRAINING AI MODEL USING DATASET AND SAVING TRAINED AI MODEL IN A PKL FILE: we have decided to use 'META/Llama-3.2-1B' model as backbone of our AI model, so we finetuned and trained Llama-3.2-3B with our dataset called 'MANISH.json', and downloaded it in .pkl file for future use, using 'llama training & finetuning program.py' program in google colab notebook.
+4. USING TRAINED AI MODEL FROM THAT PKL FILE: we load our finetuned Llama-3.2-3B model as .pkl file in google colab notebook, and created a FastAPI API & ngrok for backend server in 'FInal AI using trained & finetuned llama.py' program
+5. TESTING ACCURACY OF AI OUTPUT: we have written a python program to test and evaluevaluate the output or AI generated content using 'Evaluate & test accuracy of AI output.py' program.
+6. FRONTEND REACT APP FOR USER INTERACTION & CHATING WITH AI: we have created a React app for chating And interacting with that AI API Ngrok.
+
+
+
+
+
+
+
+
+
+
+
+===========================================================================================================================================================
+
+INTRODUCTION
+
+1.1	ABCDEFGH
+   
+1.2	IJKLMNOP
+
+1.3	QRSTUVWX 
+
+1.4	SUMMARY OF CHAPTER 1
+
+
+REVIEW OF LITERATURE
+
+2.1	ABCDEF
+
+2.2	GHIJKL
+ 
+2.2.1	WXYZ	
+
+2.2.2	ABCD
+
+2.2.3	EFGH
+
+2.2.4	PQRST
+
+2.2.5	QRSTU
+
+2.2.6	STUVW
+
+2.3	LMNOP
+
+2.3.1	FGHIJ
+
+2.3.2	IJKLM
+ 
+2.3.3	UVWXY
+
+2.3.4	FGHIJK
+
+2.3.5	ABCDEFG
+
+2.3.6	MNOPQRS
+
+2.3.7	QRSTU
+
+2.4	ABCD1234
+
+2.5	SUMMARY OF CHAPTER 2
+
+CASE STUDY OR AS APPLICABLE
+
+3.1.1	ABCDEF
+
+3.1.2	EFGHIJ
+
+3.2	JKLMNOP
+
+RESULTS AND DISCUSSION
+
+4.1	WXYZABCD
+
+1.2	SUMMARY OF CHAPTER 4
+
+CONCLUSION
+
+SCOPE FOR FURTHER WORK
+
+REFERENCES
+
+1.	ABCD, EFGH., “NAME OF PAPER”, Journal NAME,  Vol. NUMBER, Issue: , PP NO. , Date of Publication. 
+2.	ABCD, EFGH., “NAME OF PAPER”, Journal NAME,  Vol. NUMBER, Issue: , PP NO. , Date of Publication.
+3.	ABCD, EFGH., “NAME OF PAPER”, Journal NAME,  Vol. NUMBER, Issue: , PP NO. , Date of Publication. 
+4.	ABCD, EFGH., “NAME OF PAPER”, Journal NAME,  Vol. NUMBER, Issue: , PP NO. , Date of Publication. 
+5.	. 
+
+WEB SITES REFERRED:
+
+examples
+•	http://ieeexplore.ieee.org
+•	http://www.elsevier.com
+•	http://www.emeraldinsight.com
+•	http://www.hutchins.co.uk
+•	http://www.ingentaconnect.com
+•	http://www.plant-maintenance.com
+•	http://www.plantservices.com
+•	http://www.powells.com
+•	http://www.sciencedirect.com
+•	http://www.springerlink.com
+
+===========================================================================================================================================================
+
+
+**Prompt for Google Deep Research to Generate Project Report**
+
+You are Google Deep Research, a state-of-the-art AI capable of generating deeply technical, academically aligned, and fully formatted reports.
+
+You are tasked with generating a **complete academic project report** for a B.Tech level computer science project titled:
+
+**"AI Lawyer Assistant for Contract Law using LLaMA-3.2-1B and FastAPI"**
+
+---
+
+### Report Specifications:
+
+* **Minimum 50 pages** in length
+* **Font Size**: 14 points
+* **Font Style**: Times New Roman
+* **Line Spacing**: 1.5
+* **Figures, tables, diagrams, flowcharts** should be included where relevant
+* **All sections should include in-depth explanations** with subheadings, comparisons, and examples
+* The report should follow the exact format below:
+
+---
+
+## INTRODUCTION
+
+**1.1 ABCDEFGH**: Introduction to AI in law, current challenges in legal research, and need for automation in Indian contract law.
+
+**1.2 IJKLMNOP**: Objectives of the project: Building an AI assistant capable of understanding contract disputes, asking clarifying questions, and suggesting legal remedies.
+
+**1.3 QRSTUVWX**: Project Scope: Coverage of Indian Contract Act, target audience (legal interns, public), use of open-source tools (Selenium, LLaMA, FastAPI, React).
+
+**1.4 Summary of Chapter 1**
+
+---
+
+## REVIEW OF LITERATURE
+
+**2.1 ABCDEF**: Review of NLP applications in law
+
+**2.2 GHIJKL**: Overview of contract law digitization efforts in India and abroad
+
+**2.2.1 WXYZ**: Role of LLMs in legal document classification
+**2.2.2 ABCD**: Use of BERT, RoBERTa, LLaMA in legal NLP
+**2.2.3 EFGH**: Challenges in legal summarization and section extraction
+**2.2.4 PQRST**: Use of FastAPI for lightweight inference servers
+**2.2.5 QRSTU**: Dataset formats for contract cases
+**2.2.6 STUVW**: React frontends for legal tech applications
+
+**2.3 LMNOP**: Comparison of existing tools (ROSS, Lexis AI, Indian Kanoon)
+**2.3.1 FGHIJ**: Pros and cons of GPT-based legal chatbots
+**2.3.2 IJKLM**: Importance of custom finetuning for domain adaptation
+**2.3.3 UVWXY**: Role of question-answering systems in court automation
+**2.3.4 FGHIJK**: Evaluation metrics for AI-generated legal advice
+**2.3.5 ABCDEFG**: Tokenization and fine-tuning causal LMs on legal data
+**2.3.6 MNOPQRS**: Use of huggingface Trainer for fine-tuning
+**2.3.7 QRSTU**: Summary of legal NLP open research problems
+
+**2.4 ABCD1234**: Summary and identification of research gaps
+**2.5 Summary of Chapter 2**
+
+---
+
+## CASE STUDY OR AS APPLICABLE
+
+**3.1.1 ABCDEF**: Overview of the developed system
+**3.1.2 EFGHIJ**: Technology stack (Selenium, PyMuPDF, transformers, FastAPI, pyngrok, React)
+**3.2 JKLMNOP**: Detailed breakdown of each phase:
+
+### Phase 1: Data Collection
+
+* Script: `data collection using selenium.py`
+* Scrapes thousands of PDFs from IndianKanoon
+
+### Phase 2: Dataset Preparation
+
+* Script: `DATASET MAKER.py`
+* Outputs `MANISH.json` with 4000+ entries with 7 fields
+
+### Phase 3: LLaMA Training
+
+* Script: `llama training & finetuning program.py`
+* Trained `meta-llama/Llama-3.2-1B` on contract law cases
+
+### Phase 4: FastAPI AI Backend
+
+* Script: `FInal AI using trained & finetuned llama.py`
+* Loads `.pkl` and exposes `/generate_part1`, `/generate_part2`, and `/full_analysis`
+
+### Phase 5: Evaluation Script
+
+* Script: `Evaluate & test accuracy of AI output.py`
+* Assesses number of valid questions and section coverage
+
+### Phase 6: React Frontend
+
+* Uses Axios to hit ngrok URL
+* Chat interface for users
+
+---
+
+## RESULTS AND DISCUSSION
+
+**4.1 WXYZABCD**: Evaluation metrics
+
+* Accuracy: % of cases with 4 questions = 100%
+* Accuracy: % of legal analyses with all 4 sections = 100%
+* Latency benchmarks
+* Real user testing outcomes
+
+**1.2 Summary of Chapter 4**
+
+---
+
+## CONCLUSION
+
+* Summarize all achievements: Data scraping, dataset creation, LLM finetuning, API deployment, frontend integration, evaluation.
+
+---
+
+## SCOPE FOR FURTHER WORK
+
+* Adding criminal or family law domains
+* Court judgment classification
+* Cross-lingual support (e.g., Bengali, Hindi)
+* Model optimization with quantization/LoRA
+* Hosting on cloud with autoscaling
+
+---
+
+## REFERENCES
+
+(List at least 10 IEEE and academic publications related to legal NLP, FastAPI, LLaMA, etc.)
+
+## WEBSITES REFERRED
+
+* [http://indiankanoon.org](http://indiankanoon.org)
+* [http://huggingface.co](http://huggingface.co)
+* [http://ieeexplore.ieee.org](http://ieeexplore.ieee.org)
+* [http://sciencedirect.com](http://sciencedirect.com)
+* [http://springerlink.com](http://springerlink.com)
+* [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+* [https://reactjs.org](https://reactjs.org)
+* [https://github.com](https://github.com)
+
+---
+
+Make sure the final output is structured and detailed like an academic thesis. Use visuals, comparisons, explanations of challenges, implementation diagrams, flowcharts, screenshots, etc. Include table of contents and bibliography section.
+
+**End of Prompt**

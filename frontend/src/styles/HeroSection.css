@@ -1,0 +1,106 @@
+/* .hero-container {
+    text-align: center;
+    padding: 50px;
+    background: rgb(145,143,171);
+background: linear-gradient(0deg, rgba(145,143,171,1) 42%, rgba(138,133,188,1) 81%, rgba(51,106,188,0.9837184873949579) 100%, rgba(123,114,223,1) 100%);
+    
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    color: #ff6b6b;
+  }
+  
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .get-started {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  
+  .get-started:hover {
+    background-color: #0056b3;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+   */
+
+   /* HeroSection.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero-container {
+  background: rgb(145,143,171);
+background: linear-gradient(0deg, rgba(145,143,171,1) 42%, rgba(138,133,188,1) 81%, rgba(51,106,188,0.9837184873949579) 100%, rgba(123,114,223,1) 100%);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  height: 73.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #e086b4;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.hero-header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0;
+}
+
+.get-started-btn {
+  background: linear-gradient(90deg, #5a6ee1, #7897e8);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.get-started-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.get-started-btn:hover {
+  background: linear-gradient(90deg, #3e57db, #607de4);
+  transform: scale(1.05);
+}
+
+.hero-header p {
+  font-size: 16px;
+  color: #f4f4f4;
+  max-width: 600px;
+  margin: 20px auto 0;
+  line-height: 1.6;
+}

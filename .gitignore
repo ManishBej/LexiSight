@@ -1,0 +1,163 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ============================
+# Node.js / React Frontend
+# ============================
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# Environment & Secrets
+# ============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.envrc
+
+# ============================
+# Model Weights & Large Files
+# ============================
+*.pkl
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+*.safetensors
+llama_finetuned_state_dict.pkl
+
+# ============================
+# Dataset (optional - uncomment if needed)
+# ============================
+backend/DATASET/All Contract Cases/
+*.pdf
+
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================
+# IDE & Editors
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ============================
+# OS Generated
+# ============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================
+# Logs & Temp Files
+# ============================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.bak
+
+# ============================
+# Testing & Coverage
+# ============================
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ============================
+# ngrok & Tunneling
+# ============================
+ngrok.yml
+*.ngrok.io
+
+# ============================
+# Google Colab / Drive artifacts
+# ============================
+.colab/
+sample_data/
+LEXISIGHT REPORT FINAL YEAR B.TECH.pdf
+backend\DATASET\All Contract Cases
+backend\Prompt & mislenious.txt
+frontend\README.md
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+backend\Prompt & mislenious.txt
+frontend\.env
+backend\DATASET\All Contract Cases
