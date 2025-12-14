@@ -448,41 +448,7 @@ Before running the project, ensure the following:
 Apache-2.0
 ```
 
----
 
-## 🔗 Useful Links & Next Steps
-
-| Priority | Task |
-|:--------:|------|
-| 1️⃣ | Add a `requirements.txt` and `environment.yml` for reproducible environments |
-| 2️⃣ | Add small demo weights or quantized model for quick tests (if sharing publicly) |
-| 3️⃣ | Include an explicit rubric & ground-truth dataset for automated legal accuracy scoring (future work) |
-
----
-
-<div align="center">
-
-### 🛠️ Additional Services
-
-If you want, I can:
-
-| Option | Description |
-|--------|-------------|
-| 📄 | Generate a `README.pdf` from this markdown |
-| 📦 | Create a `requirements.txt` based on your notebooks |
-| 🐳 | Add example `.env.template` and a small `docker-compose.yml` for local dev |
-| 🔀 | Open a PR with this `README.md` in your repo |
-
-**Would you like me to generate any of the above files next?**
-
----
-
-If you'd like, I can now:
-- produce `requirements.txt` automatically from the notebooks, or
-- export the README as a PDF for submission, or
-- add `docker-compose.yml`, `.env.template`, and a short sample `curl` script for testing.
-
-**Which next step do you want me to do?**
 
 ---
 
