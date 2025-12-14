@@ -34,7 +34,7 @@ print("✅ Using device:", device)
 # 2. Authentication for Hugging Face
 # ===============================
 # 🔐 Replace this token with your actual Hugging Face token
-HUGGINGFACE_TOKEN = "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"  # ⬅️ REPLACE THIS
+HUGGINGFACE_TOKEN = "TYPE_YOUR_HF_TOKEN_HERE"  # ⬅️ REPLACE THIS
 os.environ["HF_ACCESS_TOKEN"] = HUGGINGFACE_TOKEN
 
 # ===============================
