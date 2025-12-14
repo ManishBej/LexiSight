@@ -40,7 +40,7 @@ print("✅ Using device:", device)
 # 2. Hugging Face Authentication & Model Setup
 # ===============================
 # Replace with your actual Hugging Face access token
-HF_TOKEN = "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"
+HF_TOKEN = "PASTE_YOUR_HF_TOKEN_HERE"
 os.environ["HF_ACCESS_TOKEN"] = HF_TOKEN
 
 model_id = "meta-llama/Llama-3.2-1B"
