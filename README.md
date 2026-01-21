@@ -16,7 +16,7 @@
 **LEXISIGHT** is an end-to-end AI Lawyer Assistant focused on **Indian Contract Law**. It ingests court judgments, prepares a structured dataset, fine-tunes a LLaMA-3.2-1B model, and exposes an inference API (FastAPI) used by a React frontend. The system generates clarifying questions and a structured legal analysis (relevant sections, procedures, strategy, estimated outcome).
 
 [Getting Started](#-quickstart--run-in-google-colab-recommended-for-dev--demo) •
-[Documentation](#-project-overview) •
+[Documentation](wiki/Home.md) •
 [API Reference](#-inference-api--endpoints) •
 [Contributing](#-contributors--contact)
 
@@ -30,6 +30,7 @@
 <summary>Click to expand</summary>
 
 - [🔍 Project Overview](#-project-overview)
+- [📚 Wiki](wiki/Home.md)
 - [📁 Repository Contents](#-repository-contents-typical)
 - [🏗️ Architecture Diagrams](#%EF%B8%8F-architecture-diagrams-mermaid)
 - [🚀 Quickstart — Google Colab](#-quickstart--run-in-google-colab-recommended-for-dev--demo)
